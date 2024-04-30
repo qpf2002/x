@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300..700&display=swap');
+
+* {margin: 0;
+    box-sizing: border-box;}
+
+body {font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    background-color: gainsboro;
+    color: #2C313F;}
+
+header,main {width: 83.33%;
+    margin: 0 auto;}
+
+h1,h2 {font-family: "Quicksand", sans-serif;
+    font-size: 5em;
+    text-align: center;}
+
+h2 {font-size: 2.5em;
+    line-height: 45px;
+    text-align: left;}
+
+header {padding: 100px 0;}
+
+footer {width: 100%;
+    background-color: #2C313F;
+    height: 200px;}
+
+section {width: 100%;
+    margin: 0 auto;
+    margin-bottom: 4em;}
+
+#thirdSection strong {font-style: italic;}
+
+div {width: 100%;
+    margin: 0 auto;}
+
+div img {width: 30%;}
+
+div div {width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;}
+
+#secondSection img {width: 60%;
+    margin: auto;
+    display: block;}
+
+section p {width: 30%;}
+
+a {text-decoration: none;
+    border: 1px solid #2C313F;
+    font-weight: 700;
+    color: #2C313F;
+    padding: 0.5em 1em;}
+
+a:hover {background-color: #2C313F;
+    color: white;}
+
+h1,h2,p {margin-bottom: 30px;}
+
+@media (max-width: 768px) {body {font-size: 10px;}}
